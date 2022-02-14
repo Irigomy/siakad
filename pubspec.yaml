@@ -1,0 +1,47 @@
+name: simak
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  intro_slider: ^3.0.2
+  get: ^4.6.1
+  line_icons: ^2.0.1
+  google_fonts: ^2.2.0
+  cupertino_icons: ^1.0.2
+  pin_code_fields: ^7.3.0
+  flutter_svg: ^1.0.3
+  scroll_snap_list: ^0.8.4
+  awesome_dropdown: ^0.0.4
+  syncfusion_flutter_datepicker: ^19.4.43
+  flutter_localizations:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+flutter:
+  assets:
+  - assets/Icons/activity.svg
+  - assets/Icons/calendar.svg
+  - assets/Icons/paper.svg
+  - assets/Icons/arrow.svg
+  - assets/Icons/tiny_arrow.svg
+  - assets/images/notfound.png
+  - assets/images/onboarding.png
+  - assets/images/user.png
+  - assets/Icons/birth.svg
+  - assets/Icons/edit.svg
+  - assets/Icons/notif.svg
+  - assets/Icons/base.svg
+  - assets/Icons/download.svg
+  uses-material-design: true
+fonts:
+  - family: 'Poppins'
+    fonts:
+      - asset: assets/Poppins-Light.ttf
+uses-material-design: true
+  
